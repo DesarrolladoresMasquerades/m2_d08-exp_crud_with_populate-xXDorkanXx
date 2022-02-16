@@ -12,6 +12,6 @@ const postSchema = new Schema(
   }
 );
 
-const Post = model("Post", postSchema);
+const Post = model("Post", postSchema); //"Post" name of the collection
 
 module.exports = Post;
